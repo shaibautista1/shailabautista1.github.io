@@ -1,0 +1,84 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.navbar {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background:palevioletred;
+}
+
+.nav-link {
+  font-size: 20px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.link-icon {
+  display: none;
+  position: absolute;
+  left: 30px;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.link-icon-2 {
+  display: block;
+  position: absolute;
+  right: 30px;
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+#home {
+  background:white;
+}
+#about {
+  background: white;
+  text-align: center;
+}
+#skills {
+  background: palevioletred;
+  position: relative;
+}
+#services {
+  background:white;
+}
+#projects {
+  background: palevioletred;
+  font-style: inherit;
+}
+#events {
+  background: white;
+}
+#footer {
+  background: palevioletred;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .navbar {
+    padding: 0;
+  }
+
+  .nav-link {
+    text-align: left;
+  }
+
+  .link-icon {
+    display: block;
+  }
+
+  .link-icon-2 {
+    display: none;
+  }
+}
